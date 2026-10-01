@@ -43,8 +43,6 @@ BuildRequires:	pkgconfig(libnl-3.0)
 BuildRequires:	pkgconfig(libpulse)
 # optional: mpd module
 BuildRequires:	pkgconfig(libmpdclient)
-# optional: sway integration
-Recommends:	sway
 
 %description
 Customizable Wayland bar for Sway and Wlroots based compositors.
